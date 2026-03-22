@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #030712;
+  --foreground: #f9fafb;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Solana wallet adapter overrides */
+.wallet-adapter-button {
+  background-color: #7c3aed !important;
+  border-radius: 0.5rem !important;
+  font-size: 0.875rem !important;
+  height: auto !important;
+  padding: 0.5rem 1rem !important;
+}
+
+.wallet-adapter-button:hover {
+  background-color: #6d28d9 !important;
+}
